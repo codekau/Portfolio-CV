@@ -10,6 +10,20 @@
 
 }
 
+body {
+    background: #c7bebe;
+    background-image: radial-gradient(
+        circle at 20% 20%,
+        rgba(0, 157, 255, 0.1),
+        transparent 40%
+    ),
+    radial-gradient(
+        circle at 80% 80%,
+        rgba(255, 0, 255, 0.1),
+        transparent 40%
+    );
+}
+
 header {
     position: fixed;
     top: 1rem;
@@ -434,3 +448,12 @@ footer ul li a{
     }
 
 } 
+
+
+.socials a {
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
